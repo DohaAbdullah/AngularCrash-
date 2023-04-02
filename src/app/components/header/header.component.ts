@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , Input} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
-  title = 'Task Tracker';
+  
+  title =  'Task Tracker';
+
+  ToggleAddTask(){
+     console.log("Toggle");
+     
+   }
 }
